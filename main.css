@@ -2,63 +2,64 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif; 
 }
 
 body {
-    background-color: #0d0d0d;
+    background-color: #0d0d0d; 
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: 'Inter', sans-serif;
 }
 
-.container {
+.main-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 24px; 
+    gap: 20px;
 }
 
 .card {
-    background-color: #1a1a1a;
-    border: 1px solid #2a2a2a;
-    border-radius: 24px;
-    padding: 32px;
-    width: 400px;
-    transition: transform 0.3s ease;
+    background-color: #121212; 
+    border: 1px solid #222;
+    border-radius: 30px; 
+    padding: 40px;
+    width: 450px;
+    color: white;
 }
 
-.card:hover {
-    transform: translateY(-5px);
-}
-
-.icon-wrapper {
-    width: 56px;
-    height: 56px;
-    border-radius: 12px;
+.icon-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 24px;
+    margin-bottom: 30px;
 }
 
-.card-title {
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 12px;
-}
-
-.card-text {
-    color: #888888;
-    font-size: 14px;
-    line-height: 1.6;
+.icon-box img {
+    width: 40px;
+    height: 40px;
 }
 
 .purple-gradient {
-    background: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);
+    background: linear-gradient(135deg, #a855f7, #ec4899);
 }
 
 .orange-gradient {
-    background: linear-gradient(135deg, #f97316 0%, #ef4444 100%);
+    background: linear-gradient(135deg, #f97316, #ef4444);
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+p {
+    color: #999; 
+    line-height: 1.6;
+    font-size: 17px;
 }

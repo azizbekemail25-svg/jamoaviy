@@ -2,64 +2,58 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color: #0d0d0d; 
+    background-color: #0b0b0b;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family: 'Inter', sans-serif;
 }
 
-.main-wrapper {
+.container {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 .card {
-    background-color: #121212; 
-    border: 1px solid #222;
-    border-radius: 30px; 
-    padding: 40px;
-    width: 450px;
+    background-color: #121212;
+    border: 1px solid #1f1f1f;
+    border-radius: 25px;
+    padding: 35px;
+    width: 420px;
     color: white;
 }
 
 .icon-box {
-    width: 80px;
-    height: 80px;
-    border-radius: 20px;
+    width: 65px;
+    height: 65px;
+    border-radius: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
-.icon-box img {
-    width: 40px;
-    height: 40px;
-}
-
-.purple-gradient {
+.purple-bg {
     background: linear-gradient(135deg, #a855f7, #ec4899);
 }
 
-.orange-gradient {
+.orange-bg {
     background: linear-gradient(135deg, #f97316, #ef4444);
 }
 
-h3 {
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    letter-spacing: 0.5px;
+h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: 600;
 }
 
 p {
-    color: #999; 
-    line-height: 1.6;
-    font-size: 17px;
+    color: #888;
+    line-height: 1.5;
+    font-size: 15px;
 }
